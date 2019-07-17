@@ -1,6 +1,12 @@
 # rust-leetcode-solutions
 
-## Algorithms
+## [kamyu104's](https://github.com/kamyu104/LeetCode-Solutions)
+```
+cd kamyu104
+cargo test
+```
+
+### Algorithms
 
 * [Bit Manipulation](https://github.com/rust-interview/rust-leetcode-solutions#bit-manipulation)
 
@@ -31,7 +37,7 @@
 * [Concurrency](https://github.com/kamyu104/LeetCode-Solutions#concurrency)
  -->
 
-## Bit Manipulation
+#### Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [single-number.rs](./kamyu104/src/single-number.rs) | _O(n)_       | _O(1)_          | Easy         |||

@@ -1,4 +1,4 @@
-# rust-leeycode-solutions
+# rust-leetcode-solutions
 
 + https://github.com/kamyu104/LeetCode-Solutions
 + https://github.com/begeekmyfriend/leetcode

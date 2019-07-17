@@ -11,6 +11,11 @@ cargo test
 * [Bit Manipulation](https://github.com/rust-interview/rust-leetcode-solutions#bit-manipulation)
 
 <!-- 
++ https://docs.rs/itertools/0.7.5/itertools/fn.fold.html
++ https://danielkeep.github.io/itercheat_baked.html
+ -->
+
+<!-- 
 * [Array](https://github.com/kamyu104/LeetCode-Solutions#array)
 * [String](https://github.com/kamyu104/LeetCode-Solutions#string)
 * [Linked List](https://github.com/kamyu104/LeetCode-Solutions#linked-list)
@@ -40,7 +45,7 @@ cargo test
 #### Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/single-number.cpp) <br> [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/single-number.py) <br> [Rust](./kamyu104/src/single-number.rs) | _O(n)_       | _O(1)_          | Easy         |||
+0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/single-number.cpp) <br> [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/single-number.py) <br> [Rust](./kamyu104/src/single_number.rs) | _O(n)_       | _O(1)_          | Easy         |||
 
 <!-- 
 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./C++/single-number-ii.cpp) [Python](./Python/single-number-ii.py) | _O(n)_ | _O(1)_          | Medium         |||

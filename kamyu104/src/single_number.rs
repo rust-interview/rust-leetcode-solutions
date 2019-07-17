@@ -1,5 +1,8 @@
+// Time:  O(n)
+// Space: O(1)
+
 #[allow(dead_code)]
-pub fn add(a: i32, b: i32) -> i32 {
+pub fn single_number(a: i32, b: i32) -> i32 {
     // only print when a test fails
     println!("{}", a + b);
     return a + b;
@@ -10,8 +13,8 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add() {
-        assert_eq!(add(1, 2), 3);
-        assert_ne!(add(1, 2), 4);
+    fn test_single_number() {
+        assert_eq!(single_number(1, 2), 3);
+        assert_ne!(single_number(1, 2), 4);
     }
 }

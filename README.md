@@ -9,10 +9,12 @@ cargo test
 ### Algorithms
 
 * [Bit Manipulation](https://github.com/rust-interview/rust-leetcode-solutions#bit-manipulation)
+
 <!-- 
 + https://docs.rs/itertools/0.7.5/itertools/fn.fold.html
 + https://danielkeep.github.io/itercheat_baked.html
  -->
+
 <!-- 
 * [Array](https://github.com/kamyu104/LeetCode-Solutions#array)
 * [String](https://github.com/kamyu104/LeetCode-Solutions#string)

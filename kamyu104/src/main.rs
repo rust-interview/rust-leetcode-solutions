@@ -1,2 +1,2 @@
-mod single_number;
 mod template;
+mod single_number;

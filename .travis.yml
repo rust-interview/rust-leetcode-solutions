@@ -39,8 +39,6 @@ before_script:
   - cargo install-update -a # update outdated cached binaries
 
 script:
-  - if [[ $TRAVIS_RUST_VERSION == "stable" ]]; then cargo fmt -- --check; fi
-  - if [[ $TRAVIS_RUST_VERSION == "stable" ]]; then cargo clippy --all; fi
   - cd kamyu104 && cargo test --verbose --all
 
 after_success:

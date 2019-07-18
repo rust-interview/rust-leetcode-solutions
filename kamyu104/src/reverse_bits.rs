@@ -1,10 +1,12 @@
 // Time : O(logn) = O(32)
 // Space: O(1)
 
-pub struct Solution {}
+pub struct Solution1 {}
+pub struct Solution2 {}
 
-impl Solution {
-    pub fn reverse_bits(a: i32, b: i32) -> i32 {
+impl Solution1 {
+    pub fn reverse_bits(a: u32) -> u32 {
+        a
     }
 }
 
@@ -14,7 +16,6 @@ mod tests {
 
     #[test]
     fn test_reverse_bits() {
-        assert_eq!(Solution::reverse_bits(1, 2), 3);
-        assert_ne!(Solution::reverse_bits(1, 2), 4);
+        assert_eq!(Solution1::reverse_bits(u32::from_str_radix("01110011001", 2).unwrap()), u32::from_str_radix("01110011001", 2).unwrap());
     }
 }

@@ -1,7 +1,7 @@
 # rust-leetcode-solutions
 
-[![Build Status](https://travis-ci.org/rust-interview/rust-leetcode-solutions.svg?branch=master)](https://travis-ci.org/Fullstop000/wickdb)
-[![Coverage Status](https://coveralls.io/repos/github/rust-interview/rust-leetcode-solutions/badge.svg?branch=master)](https://coveralls.io/github/Fullstop000/wickdb?branch=master)
+[![Build Status](https://travis-ci.org/rust-interview/rust-leetcode-solutions.svg?branch=master)](https://travis-ci.org/rust-interview/rust-leetcode-solutions)
+[![Coverage Status](https://coveralls.io/repos/github/rust-interview/rust-leetcode-solutions/badge.svg?branch=master)](https://coveralls.io/github/rust-interview/rust-leetcode-solutions)
 
 ## [kamyu104's](https://github.com/kamyu104/LeetCode-Solutions)
 ```

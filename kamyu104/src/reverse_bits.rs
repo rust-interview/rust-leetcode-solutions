@@ -11,7 +11,6 @@ impl Solution {
             result |= n & 1;
             n >>= 1;
         }
-
         result
     }
 }

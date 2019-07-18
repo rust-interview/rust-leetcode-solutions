@@ -1,3 +1,6 @@
+// Time:  O(n)
+// Space: O(1)
+
 use std::collections::HashSet;
 
 pub struct Solution1 {}

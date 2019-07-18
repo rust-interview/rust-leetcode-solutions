@@ -11,7 +11,7 @@ impl Solution {
             result |= n & 1;
             n >>= 1;
         }
-        
+
         result
     }
 }
@@ -22,7 +22,17 @@ mod tests {
 
     #[test]
     fn test_reverse_bits() {
-        assert_eq!(Solution::reverse_bits(u32::from_str_radix("00000010100101000001111010011100", 2).unwrap()), u32::from_str_radix("00111001011110000010100101000000", 2).unwrap());
-        assert_eq!(Solution::reverse_bits(u32::from_str_radix("11111111111111111111111111111101", 2).unwrap()), u32::from_str_radix("10111111111111111111111111111111", 2).unwrap());
+        assert_eq!(
+            Solution::reverse_bits(
+                u32::from_str_radix("00000010100101000001111010011100", 2).unwrap()
+            ),
+            u32::from_str_radix("00111001011110000010100101000000", 2).unwrap()
+        );
+        assert_eq!(
+            Solution::reverse_bits(
+                u32::from_str_radix("11111111111111111111111111111101", 2).unwrap()
+            ),
+            u32::from_str_radix("10111111111111111111111111111111", 2).unwrap()
+        );
     }
 }

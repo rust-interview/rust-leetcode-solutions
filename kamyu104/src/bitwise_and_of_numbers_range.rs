@@ -6,7 +6,8 @@ pub struct Solution2 {}
 
 impl Solution1 {
     pub fn range_bitwise_and(m: u32, mut n: u32) -> u32 {
-        while m < n {  // Remove the last bit 1 until n <= m.
+        while m < n {
+            // Remove the last bit 1 until n <= m.
             n &= n - 1;
         }
         n
@@ -15,12 +16,12 @@ impl Solution1 {
 
 impl Solution2 {
     pub fn range_bitwise_and(m: u32, n: u32) -> u32 {
-        let (mut i , mut diff) = (0, n-m);
-        while diff!=0{
+        let (mut i, mut diff) = (0, n - m);
+        while diff != 0 {
             diff >>= 1;
             i += 1;
         }
-         n & m >> i << i
+        n & m >> i << i
     }
 }
 

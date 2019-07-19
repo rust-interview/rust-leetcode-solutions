@@ -1,8 +1,7 @@
 pub struct Solution {}
 impl Solution {
-    pub fn add(a: i32, b: i32) -> i32 {
-        println!("{}", a + b);
-        return a + b;
+    pub fn single_number(nums: Vec<i32>) -> Vec<i32> {
+        nums
     }
 }
 
@@ -11,8 +10,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add() {
-        assert_eq!(Solution::add(1, 2), 3);
-        assert_ne!(Solution::add(1, 2), 4);
+    fn test_single_number() {
+        assert_eq!(Solution::single_number(vec![1,2,1,3,2,5]), vec![3,5]);
     }
 }

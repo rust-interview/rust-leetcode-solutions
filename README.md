@@ -52,10 +52,10 @@ cargo test
 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/single-number-ii.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/single-number-ii.py) <br> [Rust](./kamyu104/src/single_number_ii.rs) | _O(n)_ | _O(1)_          | Medium         |||
 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/reverse-bits.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/reverse-bits.py) <br> [Rust](./kamyu104/src/reverse_bits.rs) | _O(1)_        | _O(1)_          | Easy           |||
 0191  |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/number-of-1-bits.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/number-of-1-bits.py) <br> [Rust](./kamyu104/src/number_of_1_bits.rs) | _O(1)_ | _O(1)_          | Easy           |||
+0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/bitwise-and-of-numbers-range.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/bitwise-and-of-numbers-range.py) <br> [Rust](./kamyu104/src/bitwise_and_of_numbers_range.rs) | _O(1)_ | _O(1)_ | Medium ||
 
 <!-- 
 
-0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [C++](./C++/bitwise-and-of-numbers-range.cpp) [Python](./Python/bitwise-and-of-numbers-range.py) | _O(1)_ | _O(1)_ | Medium ||
 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](./C++/power-of-two.cpp) [Python](./Python/power-of-two.py) | _O(1)_ | _O(1)_ | Easy | LintCode |
 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](./C++/single-number-iii.cpp) [Python](./Python/single-number-iii.py) | _O(n)_ | _O(1)_          | Medium         ||
 0268| [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./C++/missing-number.cpp) [Python](./Python/missing-number.py)  | _O(n)_ |  _O(1)_ | Medium         | LintCode ||

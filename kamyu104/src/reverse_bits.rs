@@ -2,7 +2,6 @@
 // Space: O(1)
 
 pub struct Solution {}
-
 impl Solution {
     pub fn reverse_bits(mut n: u32) -> u32 {
         let mut result: u32 = 0;

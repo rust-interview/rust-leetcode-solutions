@@ -2,8 +2,6 @@
 // Space: O(1)
 
 pub struct Solution1 {}
-pub struct Solution2 {}
-
 impl Solution1 {
     pub fn range_bitwise_and(m: u32, mut n: u32) -> u32 {
         while m < n {
@@ -14,6 +12,7 @@ impl Solution1 {
     }
 }
 
+pub struct Solution2 {}
 impl Solution2 {
     pub fn range_bitwise_and(m: u32, n: u32) -> u32 {
         let (mut i, mut diff): (u32, u32) = (0, n - m);

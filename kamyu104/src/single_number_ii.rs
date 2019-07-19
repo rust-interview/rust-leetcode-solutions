@@ -4,10 +4,6 @@
 use std::collections::HashSet;
 
 pub struct Solution1 {}
-pub struct Solution2 {}
-pub struct Solution3 {}
-pub struct Solution4 {}
-
 impl Solution1 {
     pub fn single_number(nums: Vec<i32>) -> i32 {
         let (mut one, mut two): (i32, i32) = (0, 0);
@@ -21,6 +17,7 @@ impl Solution1 {
     }
 }
 
+pub struct Solution2 {}
 impl Solution2 {
     pub fn single_number(nums: Vec<i32>) -> i32 {
         let (mut one, mut two, mut carry): (i32, i32, i32) = (0, 0, 0);
@@ -36,11 +33,13 @@ impl Solution2 {
 }
 
 // https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/single-number-ii.py#L31
+// pub struct Solution3 {}
 // impl Solution3 {
 //     pub fn single_number(nums: Vec<i32>) -> i32 {
 //     }
 // }
 
+pub struct Solution4 {}
 impl Solution4 {
     pub fn single_number(nums: Vec<i32>) -> i32 {
         let sum: i32 = nums.iter().sum();

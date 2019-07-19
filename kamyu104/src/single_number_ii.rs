@@ -54,7 +54,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add() {
+    fn test_single_number() {
         assert_eq!(Solution1::single_number(vec![2, 2, 3, 2]), 3);
         assert_eq!(Solution1::single_number(vec![0, 1, 0, 1, 0, 1, 99]), 99);
         assert_eq!(Solution1::single_number(vec![0, 0, 0, 1, 1, 1, 5]), 5);

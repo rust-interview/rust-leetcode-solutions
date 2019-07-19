@@ -11,7 +11,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add() {
+    fn test_hamming_weight() {
         assert_eq!(Solution::hamming_weight(3), 3);
         assert_eq!(Solution::hamming_weight(4), 4);
     }

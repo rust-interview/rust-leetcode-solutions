@@ -53,10 +53,10 @@ cargo test
 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/reverse-bits.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/reverse-bits.py) <br> [Rust](./kamyu104/src/reverse_bits.rs) | _O(1)_        | _O(1)_          | Easy           |||
 0191  |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/number-of-1-bits.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/number-of-1-bits.py) <br> [Rust](./kamyu104/src/number_of_1_bits.rs) | _O(1)_ | _O(1)_          | Easy           |||
 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/bitwise-and-of-numbers-range.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/bitwise-and-of-numbers-range.py) <br> [Rust](./kamyu104/src/bitwise_and_of_numbers_range.rs) | _O(1)_ | _O(1)_ | Medium ||
+0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/power-of-two.cpp), [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/power-of-two.py) <br> [Rust](./kamyu104/src/power_of_two.rs) | _O(1)_ | _O(1)_ | Easy | LintCode |
 
 <!-- 
 
-0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](./C++/power-of-two.cpp) [Python](./Python/power-of-two.py) | _O(1)_ | _O(1)_ | Easy | LintCode |
 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](./C++/single-number-iii.cpp) [Python](./Python/single-number-iii.py) | _O(n)_ | _O(1)_          | Medium         ||
 0268| [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./C++/missing-number.cpp) [Python](./Python/missing-number.py)  | _O(n)_ |  _O(1)_ | Medium         | LintCode ||
 0318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./C++/maximum-product-of-word-lengths.cpp) [Python](./Python/maximum-product-of-word-lengths.py)  | _O(n)_ ~ _O(n^2)_ |  _O(n)_ | Medium         || Bit Manipulation, Counting Sort, Pruning|

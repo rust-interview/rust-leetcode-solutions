@@ -22,12 +22,13 @@ impl Solution1 {
 
 // Time:  O(n)
 // Space: O(1)
-// pub struct Solution3 {}
-// impl Solution3 {
-//     pub fn missing_number(nums: Vec<i32>) -> i32 {
-//         0
-//     }
-// }
+pub struct Solution3 {}
+impl Solution3 {
+    pub fn missing_number(nums: Vec<i32>) -> i32 {
+        let len_xor = (0..nums.len() + 1).fold(0, |acc, i| acc ^ i as i32);
+        nums.iter().fold(len_xor, |acc, &i| acc ^ i)
+    }
+}
 
 // Time:  O(n)
 // Space: O(1)
@@ -56,11 +57,11 @@ mod tests {
         //     8
         // );
 
-        // assert_eq!(Solution3::missing_number(vec![3, 0, 1]), 2);
-        // assert_eq!(
-        //     Solution2::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]),
-        //     8
-        // );
+        assert_eq!(Solution3::missing_number(vec![3, 0, 1]), 2);
+        assert_eq!(
+            Solution3::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]),
+            8
+        );
 
         assert_eq!(Solution4::missing_number(vec![3, 0, 1]), 2);
         assert_eq!(

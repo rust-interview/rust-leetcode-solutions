@@ -50,7 +50,7 @@ mod tests {
     #[test]
     fn test_single_number() {
         assert_eq!(Solution1::single_number(vec![1, 2, 1, 3, 2, 5]), vec![5, 3]);
-        
+
         assert_eq!(Solution2::single_number(vec![1, 2, 1, 3, 2, 5]), vec![3, 5]);
     }
 }

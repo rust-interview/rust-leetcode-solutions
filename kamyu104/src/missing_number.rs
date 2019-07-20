@@ -3,18 +3,22 @@
 pub struct Solution1 {}
 impl Solution1 {
     pub fn missing_number(nums: Vec<i32>) -> i32 {
-        0
+        let mut num: i32 = 0;
+        for i in 0..nums.len() {
+            num ^= nums[i] ^ (i + 1) as i32;
+        }
+        num
     }
 }
 
 // Time:  O(n)
 // Space: O(n)
-pub struct Solution2 {}
-impl Solution2 {
-    pub fn missing_number(nums: Vec<i32>) -> i32 {
-        0
-    }
-}
+// pub struct Solution2 {}
+// impl Solution2 {
+//     pub fn missing_number(nums: Vec<i32>) -> i32 {
+//         0
+//     }
+// }
 
 #[cfg(test)]
 mod tests {
@@ -28,10 +32,10 @@ mod tests {
             8
         );
 
-        assert_eq!(Solution2::missing_number(vec![3, 0, 1]), 2);
-        assert_eq!(
-            Solution2::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]),
-            8
-        );
+        // assert_eq!(Solution2::missing_number(vec![3, 0, 1]), 2);
+        // assert_eq!(
+        //     Solution2::missing_number(vec![9, 6, 4, 2, 3, 5, 7, 0, 1]),
+        //     8
+        // );
     }
 }

@@ -7,10 +7,12 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    // Note this useful idiom: importing names from outer (for mod tests) scope.
     use super::*;
 
     #[test]
     fn test_max_product() {
+        assert_max_product!(Solution::max_product(vec!["abcw","baz","foo","bar","xtfn","abcdef"]), 16);
+        assert_max_product!(Solution::max_product(vec!["a","ab","abc","d","cd","bcd","abcd"]), 4);
+        assert_max_product!(Solution::max_product(vec!["a","aa","aaa","aaaa"]), 0);
     }
 }

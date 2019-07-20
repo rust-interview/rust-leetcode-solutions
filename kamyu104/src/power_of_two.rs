@@ -15,10 +15,8 @@ impl Solution2 {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
-    // Note this useful idiom: importing names from outer (for mod tests) scope.
     use super::*;
 
     #[test]
@@ -32,4 +30,3 @@ mod tests {
         assert_eq!(Solution2::is_power_of_two(218), false);
     }
 }
-

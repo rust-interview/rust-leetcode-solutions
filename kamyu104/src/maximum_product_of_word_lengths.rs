@@ -8,7 +8,6 @@ impl Solution1 {
     }
 }
 
-
 // Time:  O(nlogn) ~ O(n^2)
 // Space: O(n)
 // Sorting + Pruning + Bit Manipulation
@@ -16,13 +15,20 @@ pub struct Solution2 {}
 impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
         let mut sorted_words = words.clone().sort_by(|a, b| a.len().cmp(&b.len()));
+        // vector<int> bits(words.size());
+        let bits: Vec<i32> = vec![0; words.len()];
+        // for (int i = 0; i < words.size(); ++i) {
+        //     for (const auto& c : words[i]) {
+        //         bits[i] |= (1 << (c - 'a'));
+        //     }
+        // }
         0
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use super::*;    
+    use super::*;
 
     #[test]
     fn test_max_product() {

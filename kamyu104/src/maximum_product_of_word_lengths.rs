@@ -15,8 +15,7 @@ impl Solution1 {
 pub struct Solution2 {}
 impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
-        let mut ws = words.clone();
-        ws.sort_by(|a, b| a.len().cmp(&b.len()));
+        let mut sorted_words = words.clone().sort_by(|a, b| a.len().cmp(&b.len()));
         0
     }
 }

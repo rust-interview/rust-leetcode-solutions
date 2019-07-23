@@ -15,7 +15,7 @@ pub struct Solution2 {}
 impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
         let mut sorted_words = words.clone();
-        sorted_words.sort_by(|a, b| a.len().cmp(&b.len()));
+        sorted_words.sort_by(|a, b| b.len().cmp(&a.len()));
         let mut bits: Vec<i32> = vec![0; words.len()];
         for i in 0..sorted_words.len() {
             for c in sorted_words[i].chars() {
@@ -34,7 +34,6 @@ impl Solution2 {
                 }
                 j += 1;
             }
-
             i += 1;
         }
         max_product
@@ -74,9 +73,5 @@ mod tests {
             ),
             0
         );
-
-        // assert_eq!(Solution2::max_product(vec!["abcw","baz","foo","bar","xtfn","abcdef"].iter().map(|&x| String::from(x)).collect()), 16);
-        // assert_eq!(Solution2::max_product(vec!["a","ab","abc","d","cd","bcd","abcd"].iter().map(|&x| String::from(x)).collect()), 4);
-        // assert_eq!(Solution2::max_product(vec!["a","aa","aaa","aaaa"].iter().map(|&x| String::from(x)).collect()), 0);
     }
 }

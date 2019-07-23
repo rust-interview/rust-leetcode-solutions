@@ -1,5 +1,19 @@
-pub struct Solution {}
-impl Solution {
+// Time:  O(n) ~ O(n^2)
+// Space: O(n)
+// Counting Sort + Pruning + Bit Manipulation
+pub struct Solution1 {}
+impl Solution1 {
+    pub fn max_product(words: Vec<String>) -> i32 {
+        0
+    }
+}
+
+
+// Time:  O(nlogn) ~ O(n^2)
+// Space: O(n)
+// Sorting + Pruning + Bit Manipulation
+pub struct Solution2 {}
+impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
         0
     }

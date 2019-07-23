@@ -21,12 +21,12 @@ impl Solution2 {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::*;    
 
     #[test]
     fn test_max_product() {
-        // assert_max_product!(Solution::max_product(vec!["abcw","baz","foo","bar","xtfn","abcdef"]), 16);
-        // assert_max_product!(Solution::max_product(vec!["a","ab","abc","d","cd","bcd","abcd"]), 4);
-        // assert_max_product!(Solution::max_product(vec!["a","aa","aaa","aaaa"]), 0);
+        // assert_eq!(Solution1::max_product(vec!["abcw","baz","foo","bar","xtfn","abcdef"].iter().map(|&x| String::from(x)).collect()), 16);
+        // assert_eq!(Solution1::max_product(vec!["a","ab","abc","d","cd","bcd","abcd"].iter().map(|&x| String::from(x)).collect()), 4);
+        // assert_eq!(Solution::max_product(vec!["a","aa","aaa","aaaa"].iter().map(|&x| String::from(x)).collect()), 0);
     }
 }

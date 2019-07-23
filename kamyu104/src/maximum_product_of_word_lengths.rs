@@ -75,3 +75,13 @@ mod tests {
         );
     }
 }
+
+
+// TODO: use macro
+/*
+macro_rules! s {
+    ($v:ty) => (
+        $v.to_string()
+    )
+}
+*/

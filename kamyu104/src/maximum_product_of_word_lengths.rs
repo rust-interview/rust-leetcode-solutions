@@ -14,10 +14,11 @@ impl Solution1 {
 pub struct Solution2 {}
 impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
-        let mut sorted_words = words.clone().sort_by(|a, b| a.len().cmp(&b.len()));
+        let mut sorted_words = words.clone();
+        sorted_words.sort_by(|a, b| a.len().cmp(&b.len()));
         let mut bits: Vec<i32> = vec![0; words.len()];
-        for i in 0..words.len(){
-            for c in words[i].chars(){
+        for i in 0..sorted_words.len(){
+            for c in sorted_words[i].chars(){
                 bits[i] |= (1 << (c as u32 - 'a' as u32))
             }
         }

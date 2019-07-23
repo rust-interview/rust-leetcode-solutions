@@ -15,14 +15,21 @@ pub struct Solution2 {}
 impl Solution2 {
     pub fn max_product(words: Vec<String>) -> i32 {
         let mut sorted_words = words.clone().sort_by(|a, b| a.len().cmp(&b.len()));
-        // vector<int> bits(words.size());
         let bits: Vec<i32> = vec![0; words.len()];
-        // for (int i = 0; i < words.size(); ++i) {
-        //     for (const auto& c : words[i]) {
-        //         bits[i] |= (1 << (c - 'a'));
+        // for i in 0..words.len(){
+        //     for c in words[i].chars(){
+        //         bits[i] |= (1 << (c - 'a'))
         //     }
         // }
-        0
+        let max_product :i32 = 0;
+        // for (int i = 0; i + 1 < words.size() && pow(words[i].length(), 2) > max_product; ++i) {
+        //     for (int j = i + 1; j < words.size() && words[i].length() * words[j].length() > max_product; ++j) {
+        //         if (!(bits[i] & bits[j])) {
+        //             max_product = words[i].length() * words[j].length();
+        //         }
+        //     }
+        // }
+        max_product
     }
 }
 

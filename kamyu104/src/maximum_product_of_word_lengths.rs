@@ -14,24 +14,21 @@
 // Sorting + Pruning + Bit Manipulation
 pub struct Solution2 {}
 impl Solution2 {
-    pub fn max_product(words: Vec<String>) -> i32 {
-        let mut sorted_words = words.clone();
-        sorted_words.sort_by(|a, b| b.len().cmp(&a.len()));
+    pub fn max_product(mut words: Vec<String>) -> i32 {
+        words.sort_by(|a, b| b.len().cmp(&a.len()));
         let mut bits: Vec<i32> = vec![0; words.len()];
-        for i in 0..sorted_words.len() {
-            for c in sorted_words[i].chars() {
+        for i in 0..words.len() {
+            for c in words[i].chars() {
                 bits[i] |= 1 << (c as u32 - 'a' as u32);
             }
         }
         let mut max_product: i32 = 0;
         let mut i: usize = 0;
-        while i + 1 < sorted_words.len() && sorted_words[i].len().pow(2) as i32 > max_product {
+        while i + 1 < words.len() && words[i].len().pow(2) as i32 > max_product {
             let mut j: usize = i + 1;
-            while j < sorted_words.len()
-                && (sorted_words[i].len() * sorted_words[j].len()) as i32 > max_product
-            {
+            while j < words.len() && (words[i].len() * words[j].len()) as i32 > max_product {
                 if bits[i] & bits[j] == 0 {
-                    max_product = (sorted_words[i].len() * sorted_words[j].len()) as i32;
+                    max_product = (words[i].len() * words[j].len()) as i32;
                 }
                 j += 1;
             }

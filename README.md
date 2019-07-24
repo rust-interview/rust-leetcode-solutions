@@ -64,10 +64,10 @@ cargo test
 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/single-number-iii.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/single-number-iii.py) <br>------</br> [Rust](./kamyu104/src/single_number_iii.rs) | _O(n)_ | _O(1)_          | Medium         ||
 0268| [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/missing-number.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/missing-number.py) <br>------</br> [Rust](./kamyu104/src/missing_number.rs) | _O(n)_ |  _O(1)_ | Medium         | LintCode ||
 0318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/maximum-product-of-word-lengths.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-product-of-word-lengths.py) <br>------</br> [Rust](./kamyu104/src/maximum_product_of_word_lengths.rs) | _O(n)_ ~ _O(n^2)_ |  _O(n)_ | Medium         || Bit Manipulation, Counting Sort, Pruning|
+0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/power-of-four.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/power-of-four.py) <br>------</br> [Rust](./kamyu104/src/power_of_four.rs) | _O(1)_ | _O(1)_ | Easy | |
 
 <!-- 
 
-0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](./C++/power-of-four.cpp) [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [C++](./C++/sum-of-two-integers.cpp) [Python](./Python/sum-of-two-integers.py) | _O(1)_ | _O(1)_ | Easy | LintCode |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C++](./C++/find-the-difference.cpp) [Python](./Python/find-the-difference.py) | _O(n)_ | _O(1)_ | Easy | |
 0393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [C++](./C++/utf-8-validation.cpp) [Python](./Python/utf-8-validation.py) | _O(n)_ | _O(1)_ | Medium | |

@@ -41,7 +41,6 @@ impl Solution2 {
     }
 }
 
-
 // # Time:  O(n) ~ O(n^2)
 // # Space: O(n)
 // https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-product-of-word-lengths.py#L1-L36

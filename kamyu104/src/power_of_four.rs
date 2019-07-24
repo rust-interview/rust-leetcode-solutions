@@ -13,10 +13,10 @@ pub struct Solution2 {}
 impl Solution2 {
     pub fn is_power_of_four(num: i32) -> bool {
         let mut n = num;
-        while (n != 0) && (n & 0b11) == 0 {
+        while n != 0 && (n & 0b11) == 0 {
             n >>= 2;
         }
-        (n == 1)
+        n == 1
     }
 }
 

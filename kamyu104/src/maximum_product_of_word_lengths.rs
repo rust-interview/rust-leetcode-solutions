@@ -1,6 +1,7 @@
 // Time:  O(n) ~ O(n^2)
 // Space: O(n)
 // Counting Sort + Pruning + Bit Manipulation
+// https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/maximum-product-of-word-lengths.cpp#L1-L40
 pub struct Solution1 {}
 impl Solution1 {
     pub fn max_product(words: Vec<String>) -> i32 {
@@ -37,6 +38,28 @@ impl Solution2 {
             i += 1;
         }
         max_product
+    }
+}
+
+
+// # Time:  O(n) ~ O(n^2)
+// # Space: O(n)
+// https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-product-of-word-lengths.py#L1-L36
+pub struct Solution3 {}
+impl Solution3 {
+    pub fn max_product(words: Vec<String>) -> i32 {
+        0
+    }
+}
+
+// # Time:  O(nlogn) ~ O(n^2)
+// # Space: O(n)
+// # Sorting + Pruning + Bit Manipulation
+// https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-product-of-word-lengths.py#L38-L62
+pub struct Solution4 {}
+impl Solution4 {
+    pub fn max_product(words: Vec<String>) -> i32 {
+        0
     }
 }
 

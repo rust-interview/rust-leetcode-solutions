@@ -20,6 +20,13 @@ impl Solution2 {
     }
 }
 
+// https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/power-of-four.py#L27-L34
+// pub struct Solution3 {}
+// impl Solution3 {
+//     pub fn is_power_of_four(num: i32) -> bool {
+//     }
+// }
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -31,5 +38,8 @@ mod tests {
 
         assert_eq!(Solution2::is_power_of_four(16), true);
         assert_eq!(Solution2::is_power_of_four(5), false);
+
+        // assert_eq!(Solution3::is_power_of_four(16), true);
+        // assert_eq!(Solution3::is_power_of_four(5), false);
     }
 }

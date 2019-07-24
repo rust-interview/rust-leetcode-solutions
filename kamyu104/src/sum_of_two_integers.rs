@@ -4,8 +4,6 @@
 pub struct Solution1 {}
 impl Solution1 {
     pub fn get_sum(mut a: i32, mut b: i32) -> i32 {
-        // let mut ma = a.clone();
-        // let mut mb = b.clone();
         while b != 0 {
             let carry = a & b;
             a ^= b;

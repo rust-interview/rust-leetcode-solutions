@@ -64,5 +64,8 @@ mod tests {
 
         // assert_eq!(Solution2::get_sum(1, 2), 3);
         // assert_eq!(Solution2::get_sum(-2, 3), 1);
+
+        // assert_eq!(Solution3::get_sum(1, 2), 3);
+        // assert_eq!(Solution3::get_sum(-2, 3), 1);
     }
 }

@@ -67,10 +67,10 @@ cargo test
 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/power-of-four.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/power-of-four.py) <br>------</br> [Rust](./kamyu104/src/power_of_four.rs) | _O(1)_ | _O(1)_ | Easy | |
 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/sum-of-two-integers.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/sum-of-two-integers.py) <br>------</br> [Rust](./kamyu104/src/sum_of_two_integers.rs) | _O(1)_ | _O(1)_ | Easy | LintCode |
 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/find-the-difference.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/find-the-difference.py) <br>------</br> [Rust](./kamyu104/src/find_the_difference.rs) | _O(n)_ | _O(1)_ | Easy | |
+0393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/utf-8-validation.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/utf-8-validation.py) <br>------</br> [Rust](./kamyu104/src/utf_8_validation.rs) | _O(n)_ | _O(1)_ | Medium | |
 
 <!-- 
 
-0393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [C++](./C++/utf-8-validation.cpp) [Python](./Python/utf-8-validation.py) | _O(n)_ | _O(1)_ | Medium | |
 0401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | [C++](./C++/binary-watch.cpp) [Python](./Python/binary-watch.py) | _O(1)_ | _O(1)_ | Easy | |
 0411 | [Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/) | [C++](./C++/minimum-unique-word-abbreviation.cpp) [Python](./Python/minimum-unique-word-abbreviation.py) | _O(2^n)_ | _O(n)_ | Hard | 🔒 |
 0421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [C++](./C++/maximum-xor-of-two-numbers-in-an-array.cpp) [Python](./Python/maximum-xor-of-two-numbers-in-an-array.py) | _O(n)_ | _O(n)_ | Medium ||

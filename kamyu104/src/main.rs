@@ -1,4 +1,5 @@
 mod bitwise_and_of_numbers_range;
+mod find_the_difference;
 mod maximum_product_of_word_lengths;
 mod missing_number;
 mod number_of_1_bits;
@@ -9,6 +10,5 @@ mod single_number;
 mod single_number_ii;
 mod single_number_iii;
 mod sum_of_two_integers;
-mod find_the_difference;
-mod utf_8_validation;
 mod template;
+mod utf_8_validation;

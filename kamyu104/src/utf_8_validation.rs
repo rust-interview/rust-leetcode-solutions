@@ -13,16 +13,16 @@ impl Solution {
                         count = 2;
                     } else if (c >> 3) == 0b11110 {
                         count = 3;
-                    } else if c >> 7!=0 {
+                    } else if c >> 7 != 0 {
                         return false;
                     }
-                },
+                }
                 _ => {
                     if (c >> 6) != 0b10 {
                         return false;
                     }
-                    count-=1;
-                },
+                    count -= 1;
+                }
             }
         }
         count == 0

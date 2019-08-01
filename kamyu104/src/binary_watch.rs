@@ -33,20 +33,11 @@ mod tests {
     fn test_read_binary_watch() {
         assert_eq!(
             Solution::read_binary_watch(1)
-                .iter()
-                .collect::<BTreeSet<&String>>(),
+                .into_iter()
+                .collect::<BTreeSet<String>>(),
             vec!["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
-                .iter()
-                .map(|&x| String::from(x))
-                .collect::<BTreeSet<String>>()
-        );
-        assert_eq!(
-            Solution::read_binary_watch(1)
-                .iter()
-                .collect::<BTreeSet<&String>>(),
-            vec!["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
-                .iter()
-                .map(|&x| x.into())
+                .into_iter()
+                .map(String::from)
                 .collect::<BTreeSet<String>>()
         );
     }

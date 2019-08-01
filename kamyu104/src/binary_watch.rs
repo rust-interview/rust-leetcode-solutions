@@ -42,5 +42,14 @@ mod tests {
                 .map(String::from)
                 .collect::<BTreeSet<String>>()
         );
+        assert_eq!(
+            Solution::read_binary_watch(1)
+                .into_iter()
+                .collect::<BTreeSet<String>>(),
+            vec!["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
+                .into_iter()
+                .map(Into::into)
+                .collect::<BTreeSet<String>>()
+        );
     }
 }

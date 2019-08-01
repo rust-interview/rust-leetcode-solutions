@@ -1,5 +1,8 @@
 use std::collections::BTreeSet;
 
+// Time:  O(1)
+// Space: O(1)
+
 pub struct Solution {}
 impl Solution {
     pub fn read_binary_watch(num: i32) -> Vec<String> {
@@ -7,8 +10,7 @@ impl Solution {
         (0..12).for_each(|h| {
             (0..60).for_each(|m| {
                 if (Solution::bit_count(h) + Solution::bit_count(m)) == num {
-                    let elem = format!("{}:{:02}", h, m);
-                    result.push(elem);
+                    result.push(format!("{}:{:02}", h, m));
                 }
             });
         });

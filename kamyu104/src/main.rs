@@ -1,3 +1,4 @@
+mod binary_watch;
 mod bitwise_and_of_numbers_range;
 mod find_the_difference;
 mod maximum_product_of_word_lengths;

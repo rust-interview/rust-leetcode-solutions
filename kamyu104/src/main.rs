@@ -4,6 +4,7 @@ mod find_the_difference;
 mod hamming_distance;
 mod maximum_product_of_word_lengths;
 mod maximum_xor_of_two_numbers_in_an_array;
+mod minimum_moves_to_equal_array_elements_ii;
 mod missing_number;
 mod number_of_1_bits;
 mod power_of_four;

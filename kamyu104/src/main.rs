@@ -1,6 +1,7 @@
 mod binary_watch;
 mod bitwise_and_of_numbers_range;
 mod find_the_difference;
+mod hamming_distance;
 mod maximum_product_of_word_lengths;
 mod maximum_xor_of_two_numbers_in_an_array;
 mod missing_number;

@@ -71,10 +71,10 @@ cargo test
 0401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/binary-watch.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/binary-watch.py) <br>------</br> [Rust](./kamyu104/src/binary_watch.rs) | _O(1)_ | _O(1)_ | Easy | |
 0411 | [~~Minimum Unique Word Abbreviation~~](https://leetcode.com/problems/minimum-unique-word-abbreviation/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/minimum-unique-word-abbreviation.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/minimum-unique-word-abbreviation.py) | _O(2^n)_ | _O(n)_ | Hard | 🔒 |
 0421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/maximum-xor-of-two-numbers-in-an-array.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-xor-of-two-numbers-in-an-array.py) <br>------</br> [Rust](./kamyu104/src/maximum_xor_of_two_numbers_in_an_array.rs) | _O(n)_ | _O(n)_ | Medium ||
+0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/hamming-distance.cpp) [Python](https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/hamming-distance.py) <br>------</br> [Rust](./kamyu104/src/hamming_distance.rs) | _O(1)_ | _O(1)_ | Easy ||
 
 <!-- 
 
-0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](./C++/hamming-distance.cpp) [Python](./Python/hamming-distance.py) | _O(1)_ | _O(1)_ | Easy ||
 0462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [C++](./C++/minimum-moves-to-equal-array-elements-ii.cpp) [Python](./Python/minimum-moves-to-equal-array-elements-ii.py) | _O(n)_  on average | _O(1)_ | Medium ||
 0477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [C++](./C++/total-hamming-distance.cpp) [Python](./Python/total-hamming-distance.py) | _O(n)_ | _O(1)_ | Medium ||
 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [C++](./C++/set-mismatch.cpp) [Python](./Python/set-mismatch.py) | _O(n)_ | _O(1)_ | Easy ||

@@ -17,7 +17,8 @@ impl Solution1 {
 pub struct Solution2 {}
 impl Solution2 {
     pub fn hamming_distance(x: i32, y: i32) -> i32 {
-        2
+        let z = format!("{:b}", x ^ y);
+        z.chars().filter(|&c| c == '1').count() as i32
     }
 }
 
@@ -28,5 +29,6 @@ mod tests {
     #[test]
     fn test_hamming_distance() {
         assert_eq!(Solution1::hamming_distance(1, 4), 2);
+        assert_eq!(Solution2::hamming_distance(1, 4), 2);
     }
 }

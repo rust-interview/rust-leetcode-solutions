@@ -3,7 +3,13 @@
 pub struct Solution {}
 impl Solution {
     pub fn hamming_distance(x: i32, y: i32) -> i32 {
-        2
+        let mut distance: i32 = 0;
+        let mut z: i32 = x ^ y;
+        while z != 0 {
+            distance += 1;
+            z &= z - 1;
+        }
+        distance
     }
 }
 
@@ -16,4 +22,3 @@ mod tests {
         assert_eq!(Solution::hamming_distance(1, 4), 2);
     }
 }
-

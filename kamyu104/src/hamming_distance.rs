@@ -1,7 +1,8 @@
 // Time:  O(1)
 // Space: O(1)
-pub struct Solution {}
-impl Solution {
+
+pub struct Solution1 {}
+impl Solution1 {
     pub fn hamming_distance(x: i32, y: i32) -> i32 {
         let mut distance: i32 = 0;
         let mut z: i32 = x ^ y;
@@ -13,12 +14,19 @@ impl Solution {
     }
 }
 
+pub struct Solution2 {}
+impl Solution2 {
+    pub fn hamming_distance(x: i32, y: i32) -> i32 {
+        2
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
 
     #[test]
     fn test_hamming_distance() {
-        assert_eq!(Solution::hamming_distance(1, 4), 2);
+        assert_eq!(Solution1::hamming_distance(1, 4), 2);
     }
 }
